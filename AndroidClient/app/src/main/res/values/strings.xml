@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">HyperPlanner</string>
+    <string name="title_home">Yerterday</string>
+    <string name="title_dashboard">Today</string>
+    <string name="title_notifications">Tomorrow</string>
+</resources>
