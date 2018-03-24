@@ -6,7 +6,7 @@ A marvelous work for Software Engineering course
 
 ####如果你参与Android客户端开发，请将AndroidClint下的.gitignore修改为一下内容（github官方给出的android gitignore）
 
-'''
+```
 # Built application files
 *.apk
 *.ap_
@@ -70,4 +70,4 @@ fastlane/Preview.html
 fastlane/screenshots
 fastlane/test_output
 fastlane/readme.md
-'''
+```
