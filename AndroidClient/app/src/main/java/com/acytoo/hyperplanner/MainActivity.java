@@ -46,22 +46,27 @@ public class MainActivity extends AppCompatActivity {
         Log.d("FirstActivity", s );
         Log.i("asdfasdf",s);
 
-        Button ytbutton = (Button)findViewById(R.id.ytbutton);
+        /*Button ytbutton = (Button)findViewById(R.id.ytbutton);
         ytbutton.setOnClickListener(
                 new Button.OnClickListener(){
                     @Override
                     public void onClick(View v) {
-                        Intent week =
+                        Intent week = new Intent(this, WeekActivity.class);
+
                     }
                 }
-        );
+        );*/
+
 
     }
 
     public void haha(View view){
         Log.d("click", "here");
+        Intent week = new Intent(this, WeekActivity.class);
+        startActivity(week);
 
     }
+
 
 
 
