@@ -3,4 +3,6 @@
     <string name="title_home">Yerterday</string>
     <string name="title_dashboard">Today</string>
     <string name="title_notifications">Tomorrow</string>
+    <string name="title_activity_week">WeekActivity</string>
+    <string name="WeekMessage">Here is the week info</string>
 </resources>
