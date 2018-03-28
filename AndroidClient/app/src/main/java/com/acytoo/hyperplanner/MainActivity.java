@@ -46,26 +46,33 @@ public class MainActivity extends AppCompatActivity {
         Log.d("FirstActivity", s );
         Log.i("asdfasdf",s);
 
-        /*Button ytbutton = (Button)findViewById(R.id.ytbutton);
+        Button ytbutton = (Button)findViewById(R.id.ytbutton);
         ytbutton.setOnClickListener(
                 new Button.OnClickListener(){
                     @Override
-                    public void onClick(View v) {
-                        Intent week = new Intent(this, WeekActivity.class);
-
+                    public void onClick(View view) {
+                        Log.d("click", "here");
+                        //Intent week = new Intent(this, WeekActivity.class);
+                        Intent weekActivity = new Intent();
+                        weekActivity.setClass(MainActivity.this, WeekActivity.class);
+                        final String myinfo = "my test info";
+                        weekActivity.putExtra("testinfo", myinfo);
+                        startActivity(weekActivity);
                     }
                 }
-        );*/
+        );
 
 
     }
+    /*
+    //when you write your own listener, this function won's work
 
-    public void haha(View view){
-        Log.d("click", "here");
-        Intent week = new Intent(this, WeekActivity.class);
-        startActivity(week);
+    public void clickMe(View view){
 
-    }
+        //Intent week = new Intent(this, WeekActivity.class);
+        //startActivity(week);
+
+    }*/
 
 
 
