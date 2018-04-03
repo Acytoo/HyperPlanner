@@ -1,7 +1,7 @@
 # HyperPlanner
 A marvelous work for Software Engineering course
 
-#### Enjoy ! 
+#### Enjoy ! !
 
 #### F**k the gradle, let's use a local distribution: gradle 4.6 https://gradle.org/releases/
 
