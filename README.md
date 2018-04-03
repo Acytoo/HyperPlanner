@@ -3,6 +3,7 @@ A marvelous work for Software Engineering course
 
 #### Enjoy ! 
 
+#### F**k the gradle, let's use a local distribution: gradle 4.6 https://gradle.org/releases/
 
 #### 如果你参与Android客户端开发，请将AndroidClient下的.gitignore修改为以下内容（github官方给出的android gitignore）
 
